@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+html, body{
+    height: 100%;
+}
+
+
+/* Decimal to Binary Converter CSS Start */
+.numberConverter{
+    position: relative;
+    height: 100%;
+}
+.area-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("https://images.unsplash.com/photo-1626740069721-a3b9141a8a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80");
+    background-position: center;
+    background-size: cover;;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.area-bg:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fb0000c7;
+    opacity: 90%;
+    z-index: 1;
+}
+.convert-form {
+    background: white;
+    border-radius: 5px;
+    padding: 40px 50px;
+    box-shadow: 0px 7px 16px 1px #04000082;
+    margin-top: 100px;
+}
+
+
+input.form_text {
+    border: none;
+    border-bottom: 2px solid #ea0707;
+    padding: 14px 12px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+input.form_text:focus {
+    outline: none;
+    border-bottom: 2px solid #ea0707;
+}
+input.form_text:focus-visible {
+    border: none;
+    border-bottom: 2px solid #ea0707;
+    
+}
+.form_text {
+    border-bottom: 2px solid #ea0707;
+}
+
+.converter_output {
+    font-size: 18px;
+    padding: 4px 12px;
+    font-weight: 400;
+    visibility: hidden;
+}
+.form-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ea0707;
+}
+
+button.convert-btn {
+    border: none;
+    padding: 8px 20px;
+    background: #ea0707;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+/* Decimal to Binary Converter CSS End */
+
+
+
